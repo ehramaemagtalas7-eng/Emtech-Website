@@ -1,0 +1,252 @@
+body {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: auto 10%;
+    padding: auto 10%;
+    font-family:  sans-serif;
+    background-color: pink;
+}
+
+.welcome-text {
+    color: whitesmoke;
+    font-size: 28px;
+    margin-bottom: 50px;
+    font-style: italic;
+}
+
+.photo-card {
+    background-color: #d8a7b8;   /* pink card background */
+    padding: 25px;
+    border-radius: 20px;
+    width: 60%;
+    margin: 40px auto;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.photo-card img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.caption {
+    margin-top: 15px;
+    font-style: italic;
+    font-family: cursive;
+}
+
+ /* Ehra Page Background */
+ .ehrabody {
+margin: 0;
+    font-family: Georgia, serif;
+    background: linear-gradient(to bottom, #f3c6d3, #e8b9cc);
+    display: flex;
+    flex-direction: column;   /* ADD THIS */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: #f7f7f7;
+    width: 70%;
+    max-width: 900px;
+    padding: 60px;
+    border-radius: 30px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    text-align: justify;
+    margin: 40px 0;   /* 👈 THIS ADDS SPACE */
+}
+
+/* Button Style */
+.btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 30px;
+    background-color: #f08fb3;
+    color: black;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #e06a96;
+}
+
+.joanabody {
+    margin: 0;
+    font-family: Georgia, serif;
+    background: linear-gradient(to bottom, #f3c6d3, #e8b9cc);
+    display: flex;
+    flex-direction: column;   /* ADD THIS */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.jheabody {
+    margin: 0;
+    font-family: Georgia, serif;
+    background: linear-gradient(to bottom, #f3c6d3, #e8b9cc);
+    display: flex;
+    flex-direction: column;   /* ADD THIS */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.alexabody {
+    margin: 0;
+    font-family: Georgia, serif;
+    background: linear-gradient(to bottom, #f3c6d3, #e8b9cc);
+    display: flex;
+    flex-direction: column;   /* ADD THIS */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    padding: 30px;
+    margin: 40px;
+    min-height: 90vh;
+    background-color: white;
+}
+
+nav {
+    color: #8f8f4f;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav li {
+    font-weight: bold;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.joana {
+    text-align: center;
+    color: black;
+    margin-top: 80px;
+}
+
+.hero h1 {
+    font-size: 80px;
+    color: #8f8f4f;
+    line-height: 1.1;
+}
+
+.subtitle {
+    font-size: 22px;
+    color: #c28d8d;
+    margin-top: 20px;
+}
+
+.buttons {
+    margin-top: 40px;
+}
+
+button {
+    padding: 12px 30px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 3px solid;
+    background-color: transparent;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Button Colors */
+.pink {
+    border-color: #f6a5c0;
+    color: #f6a5c0;
+    box-shadow: 4px 4px rgb(234, 160, 160);
+}
+
+.yellow {
+    border-color: #f4d35e;
+    color: #f4d35e;
+    box-shadow: 4px 4px #dfba34;
+}
+
+.purple {
+    border-color: #cdb4db;
+    color: #cdb4db;
+    box-shadow: 4px 4px #b27ad2;
+}
+
+.green {
+    border-color: #b5e48c;
+    color: #b5e48c;
+    box-shadow: 4px 4px #95c66a;
+}
+
+.btn {
+    padding: 12px 30px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 3px solid;
+    background-color: transparent;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.Navigation {
+    background-color: #f6a5c0;
+    padding: auto 0.5%;
+    border-radius: 5px;
+    justify-content: center;
+    
+}
+
+.navdiv {
+    max-width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 1.0%;
+}
+
+.logo a {
+    color: white;
+    border-radius: 90%;
+    padding: auto;
+    margin: auto;
+    align-items: left
+}
+
+.navlinks a {
+    color: white;
+    text-decoration: none;
+}
+
+.navlinks a {
+    color: white;
+    text-decoration: none;
+}
+
+.navlinks a:hover {
+    color: rgb(245, 234, 248);
+    text-decoration: none;
+    text-decoration: underline;
+}
